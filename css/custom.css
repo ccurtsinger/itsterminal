@@ -37,3 +37,7 @@ body {
   vertical-align: center; 
   margin-right: 1em;
 }
+
+pre .sh .k, pre .sh .o {
+  font-weight: normal;
+}
