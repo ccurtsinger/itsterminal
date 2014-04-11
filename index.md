@@ -6,7 +6,7 @@ next-text: Get Started
 progress: 0%
 ---
 
-<img src="/img/gates.png" class="thumbnail pull-right" width=40%/>
+<img src="img/gates.png" class="thumbnail pull-right" width=40%/>
 
 You've got an entire lab to do and you're stuck without a GUI.
 

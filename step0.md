@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-prev: /
+prev: index.html
 next: step1.html
 progress: 3%
 ---
