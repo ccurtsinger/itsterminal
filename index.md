@@ -12,9 +12,7 @@ You've got an entire lab to do and you're stuck without a GUI.
 
 <small>*You did close Eclipse, right?*</small>
 
-It looks like we'll have to use the Terminal (also called the shell or command line).
-
-That's alright, this used to be the *only way* to use a computer! Many computer programmers regularly use the shell because it can be such a powerful tool.
+It looks like we'll have to use the Terminal (also called the shell or command line). *That's alright*, this used to be the only way to use a computer! Many computer programmers regularly use the shell because it can be such a powerful tool.
 
 #### Overview
 
