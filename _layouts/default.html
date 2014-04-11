@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+
+    <title>It's Terminal - {{ page.title }}</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">It's Terminal</h1>
+          <h2 id="project_tagline">CS 201 Lab 10</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>{{ page.title }}</h3>
+        {{ content }}
+        
+        {% for project in site.data['page_collections']['steps'].pages %}
+          <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+        {% endfor %}
+        
+        {% if page.previous %}
+        <p>Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+        {% endif %}
+        {% if page.next %}
+        <p>Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+        {% endif %}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright"><em>It's Terminal</em> maintained by <a href="https://github.com/ccurtsinger">Charlie Curtsinger</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
