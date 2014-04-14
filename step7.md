@@ -12,7 +12,7 @@ There are many more commands than we can cover in this lab, but here are a few c
 You can read documentation for any command and its options using the `man` (**man**ual) command. For example, `man ls` will describe the `ls` command. Of course, `man` has its own options, so run `man man` to read about them. Use the arrow keys to move around, and press <kbd>q</kbd> to quit.
 
 #### See what's running
-The `top` shows a live-updating view of the applications running on a machine. The display includes the amount of memory and CPU being used by each program, along with many other system resources.
+The `top` shows a live-updating view of the applications running on a machine. The display includes the amount of memory and CPU being used by each program, along with many other system resources. Press <kbd>q</kbd> to quit.
 
 #### See who's logged in
 The `who` command will list all the connected users. There is an entry for each connection, so if you have multiple connections to a machine you will be listed multiple times.

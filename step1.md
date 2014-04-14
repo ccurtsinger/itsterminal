@@ -90,7 +90,7 @@ $ cd Si
 Don't run the command yet. We're going to move multiple directories in one step. Type `c` and push <kbd>tab</kbd> again. The shell will add an `s`, but it hasn't completed the entire directory because there are multiple options. If you hit <kbd>tab</kbd> **twice more** the shell will print the options:
 
 {% highlight sh %}
-$ cs Sites/cs
+$ cd Sites/cs
 cs101/ cs201/
 {% endhighlight %}
 
