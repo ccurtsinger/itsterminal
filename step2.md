@@ -47,7 +47,19 @@ $ mv ~/typescript .
 
 The `mv` command just takes the first file and moves it to the second. The `.` file is just a name for the current directory. If the second location is a directory, the file will be added to the directory. If not, the first file will be renamed.
 
-You can create an empty file with the `touch` command. The command `touch test` will create a file called `test` with no contents. You can rename the file by running the command `mv test test2`. If you want a *copy* of the file, use the `cp` command:
+You can create an empty file with the `touch` command:
+
+{% highlight sh %}
+$ touch test
+{% endhighlight %}
+
+The above command will create a file called `test` with no contents. You can rename the file by running the command:
+
+{% highlight sh %}
+$ mv test test2
+{% endhighlight %}
+
+If you want a *copy* of the file, use the `cp` command:
 
 {% highlight sh %}
 $ cp test2 test1
