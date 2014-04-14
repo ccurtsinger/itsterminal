@@ -94,4 +94,6 @@ $ cd Sites/cs
 cs101/ cs201/
 {% endhighlight %}
 
-Just type the next character that distinguishes the two options (a `2`) then press <kbd>tab</kbd> one last time to finish the completion. Run the completed command to move to your `Sites/cs201` directory and move on to the next step.
+Just type the next character that distinguishes the two options (a `2`) then press <kbd>tab</kbd> one last time to finish the completion.
+
+<strong>Run the completed command to move to your `Sites/cs201` directory and move on to the next step.</strong>
