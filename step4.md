@@ -16,7 +16,9 @@ Packages are useful for grouping related classes together, and distinguishing be
 
 To get some practice with packages, you're going to organize a few of the classes you've written for assignments or labs.
 
-First, you'll need to make a `src` directory inside of your `Lab10` directory. <small>Don't remember the `mkdir` command? Take a look at [step 2](step2.html).</small>
+First, you'll need to make a `src` directory inside of your `Lab10` directory. 
+
+<small>(Don't remember the `mkdir` command? Take a look at [step 2](step2.html))</small>
 
 Next, we'll create a package for this course called `cs201`. To do this, make a directory inside your `src` directory:
   
