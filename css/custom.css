@@ -41,3 +41,24 @@ body {
 pre .sh .k, pre .sh .o {
   font-weight: normal;
 }
+
+h4 {
+  color: #333333;
+  width: 100%;
+  padding-bottom: 4px;
+  margin-top: 1em;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.alert .highlight {
+  background-color: transparent
+}
+
+.alert pre, .alert code {
+  padding: 0.2em;
+  background-color: #f0f8ff;
+}
+
+.alert pre {
+  border-color: #bbbbbb;
+}
