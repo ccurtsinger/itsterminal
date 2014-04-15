@@ -31,6 +31,8 @@ The `telnet` command is a little like `ssh`, except it isn't secure. It's not us
 $ telnet towel.blinkenlights.nl
 {% endhighlight %}
 
+When you're done, press <kbd>control</kbd> + <kbd>]</kbd>, type in "quit", then press <kbd>return</kbd>.
+
 [This website](http://www.ascii-wm.net) broadcast a live stream of the 2006 world cup via `telnet`, although the video is no longer available. You can see some screenshots of the "footage."
 
 #### Visit the "doctor"
