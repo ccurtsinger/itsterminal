@@ -17,6 +17,15 @@ The `top` shows a live-updating view of the applications running on a machine. T
 #### See who's logged in
 The `who` command will list all the connected users. There is an entry for each connection, so if you have multiple connections to a machine you will be listed multiple times.
 
+#### Copy files to a remote machine
+You can use the `scp` (**s**ecure **c**o**p**y) command to copy files to another machine. The command works much like `cp`, except you can copy to/from a remote machine. For example, you can use a command like this one to copy Assignment 8 from your personal machine to the department file server:
+
+{% highlight sh %}
+$ scp -r ~/my/eclipse/workspace/Assignment8 smith22j@royal.cs.mtholyoke.edu:~/Sites/cs201/
+{% endhighlight %}
+
+The `-r` flag tells `scp` to copy recursively: it will transfer all the files in a folder. Without this flag, you can only copy one file at a time.
+
 #### Look at the beginning or end of a file
 The `head` command will print the first ten lines of a file. Likewise, `tail` prints the last ten. You can specify a different number of lines with the `-c` flag:
 
